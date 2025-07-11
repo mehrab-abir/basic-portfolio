@@ -44,7 +44,9 @@ header{
     background-position: left, bottom right;
     background-color: #FFF8F3;
     padding-top: 20px;
+    width: 90%;
 }
+
 
 /* nav styles */
 nav{
@@ -160,6 +162,27 @@ main{
     font-size: 15px;
 }
 
+@media(max-width:600px){
+    .cards{
+        flex-direction: column;
+    }
+    .single-card{
+        margin-top: 10px;
+        width: 400px;
+    }
+    .resume-columns{
+        flex-direction: column;
+    }
+    .single-column{
+        margin-left: 30px;
+    }
+    .what-i-do p{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
 /* Resume section styles  */
 .resume-section .resume-title{
     text-align: center;
@@ -239,4 +262,17 @@ main{
 .footer .copyright a{
     color: blue;
     cursor:pointer;
+}
+
+@media(max-width:600px){
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-left{
+        margin-left: 30px;
+    }
+    .footer-right{
+        margin-left:0px;
+        margin-top: 20px;
+    }
 }
