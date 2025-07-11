@@ -230,3 +230,13 @@ main{
     margin-bottom: 10px;
     font-size: 18px;
 }
+
+.footer .copyright{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+.footer .copyright a{
+    color: blue;
+    cursor:pointer;
+}
