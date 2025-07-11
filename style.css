@@ -159,3 +159,74 @@ main{
     color: #757575;
     font-size: 15px;
 }
+
+/* Resume section styles  */
+.resume-section .resume-title{
+    text-align: center;
+    margin: 130px 0px;
+    font-size: 40px;
+}
+.resume-columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.single-column .single-column-title{
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.single-eduexp h2{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.single-eduexp .sub-info{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.single-eduexp .eduexpdetails{
+    margin-bottom: 25px;
+    padding-right: 100px;
+}
+.resume-section .cv-btn{
+    text-align: center;
+}
+
+/* footer styles */
+.footer{
+    background-color:#FFF8F3;
+    padding: 100px 0px;
+}
+
+.footer-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+}
+.footer-content .footer-icons a {
+    margin-right: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #FD6E0A;
+}
+.footer-right{
+    padding-left: 100px;
+}
+.footer-content .footer-header{
+    margin-bottom: 20px;
+}
+.footer-content p{
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.footer-right form input, .footer-right form textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}

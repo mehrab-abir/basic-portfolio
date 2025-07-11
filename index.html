@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio- Home</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="open-sans-normal">
@@ -25,8 +27,8 @@
                 <h1 class="dark-1">Mary Hardy</h1>
                 <p class="dark-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, totam quidem! Ratione at pariatur, fuga numquam iusto ab cumque nobis!</p>
                 <div class="banner-btns">
-                    <button class="btn-primary">Download CV</button>
-                    <button class="btn-primary">Contact</button>
+                    <button class="btn-primary"><i class="bi bi-download"></i> Download CV</button>
+                    <button class="btn-primary"><i class="bi bi-telephone"></i> Contact</button>
                 </div>
             </div>
             <img src="images/hardy.png" alt="">
@@ -88,13 +90,93 @@
                 <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligulaeget dolor.</p>
             </div>
         </section>
+
+
+        <section class="resume-section">
+            <h1 class="resume-title dark-1">A summary of My Resume</h1>
+
+            <div class="resume-columns">
+                <div class="single-column education">
+                    <h1 class="single-column-title dark-2">My Education</h1>
+
+                    <div class="single-eduexp">
+                        <h2>Master in Computer Engineering</h2>
+                        <p class="sub-info dark-2">Harverd University / 2015-2017</p>
+                        <p class="eduexpdetails dark-3">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <hr>
+                    <div class="single-eduexp">
+                        <h2>Master in Computer Engineering</h2>
+                        <p class="sub-info dark-2">Harverd University / 2015-2017</p>
+                        <p class="eduexpdetails dark-3">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <hr>
+                    <div class="single-eduexp">
+                        <h2>Master in Computer Engineering</h2>
+                        <p class="sub-info dark-2">Harverd University / 2015-2017</p>
+                        <p class="eduexpdetails dark-3">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+
+                </div>
+
+                <div class="single-column experience">
+                    <h1 class="single-column-title dark-2">My Experience</h1>
+
+                    <div class="single-eduexp">
+                        <h2>Sr. Font End Developer</h2>
+                        <p class="sub-info dark-2">Apple Inc / 2023 - Current</p>
+                        <p class="eduexpdetails dark-3">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <hr>
+                    <div class="single-eduexp">
+                        <h2>Jr. Font End Developer</h2>
+                        <p class="sub-info dark-2">Abc Inc. / 2027-2019</p>
+                        <p class="eduexpdetails dark-3">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <hr>
+                    <div class="single-eduexp">
+                        <h2>Jr. Font End Developer</h2>
+                        <p class="sub-info dark-2">Abc Co. /2020-2022</p>
+                        <p class="eduexpdetails dark-3">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="cv-btn">
+                <button class="btn-primary">Download CV</button>
+            </div>
+            
+        </section>
     </main>
 
     <!--footer-->
-    <footer>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-side footer-left">
+                <h1 class="footer-header">Let's Connect</h1>
+                <p class="dark-3">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+
+                <div class="footer-icons">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-side footer-right">
+                <h1 class="footer-header">Message Me</h1>
+                <form>
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your email">
+                    <textarea name="" id="" rows="5" placeholder="Message"></textarea>
+                    <button class="btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        
 
     </footer>
-
     
 </body>
 </html>
